@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>final_web</title>
+</head>
+<style >
+	*{
+		box-sizing: border-box;
+
+	}
+  body{
+
+  	font-family: georgia ,serif;
+  	background-color: currentColor;
+  	
+
+
+  }
+  
+  h1{
+  	text-align: left;
+  }
+  h2{
+  	background-color: tomato;
+  	border: 1px yellow dashed;;
+  }
+  p{
+  	border: 1px solid tomato;
+  	color: whitesmoke;
+  }
+  
+ footer{
+ background-color: tomato;
+ padding:5px;
+ text-algin: center;
+ color: black;
+ fontsize:10px,
+   }
+
+
+ 
+ article{
+-webkit-flex:3;
+-ms-flex:3;
+flex:3;
+padding:30px;
+backgroud-color:green;
+color: whitesmoke;
+border: 10px dashed black;
+}
+ 
+
+
+.menu {
+  float: left;
+  width: 20%;
+  color: whitesmoke;
+  background-color: tomato;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+  background-color: tomato;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+  color: whitesmoke;
+  display : flex ;
+  justify-content:space-between;
+  border: 1px solid tomato; ;
+
+}
+.right {
+  background-color: lightblue;
+  float: right;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: initial;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+ }
+
+ 
+
+	ul{
+		list-style-type: none ;
+		margin: 50px;
+		padding: 20px;
+		overflow: hidden; 
+		background-color:f1f1f1;
+
+	}
+	li {
+		float: left;
+		text-align: center;
+	}
+	li a{
+		display: black ;
+		color: skyblue;
+		text-align: center;
+		padding:40px ;
+		text-decoration: none;
+		
+
+
+	}
+	li a:hover {
+  background-color: whitesmoke;
+  
+} 
+
+</style>
+<body>
+
+<h1 style="background-color: tomato;">BASSAM'S JOURNAL</h1>
+<p> fresh and good and clean </p>
+
+<ul>
+	<li><a href="#home"> Home</a></li>
+	<li><a href="#picture">Picture</a></li>
+	<li><a href="#contect">contect</a></li>
+	<li><a href="#news"> News</a></li>
+	<li><a href="#about"> About</a></li>
+
+</ul>
+<div style="overflow:auto" >
+
+  <div class="menu">
+  	<h1>friends</h1>
+    <div class="menuitem"><a herf = “#Testing1”>Testing1</a></div>
+    <div class="menuitem"><a herf = “#Testing2”>Testing2</a></div>
+    <div class="menuitem"><a herf = “#Testing3”>Testing3</a></div>
+    <div class="menuitem"><a herf = “#Testing4”>Testing4</a></div>
+  </div>
+  <div class="main" >
+<article  >
+<h2>02/03/2022:spatuls</h2>
+<p> A spatula is a broad, flat, flexible blade used to mix, spread and lift material including foods, drugs, plaster and paints.
+
+In medical applications, "spatula" may also be used synonymously with tongue depressor.</p>
+</article>
+ <img src="https://www.culinaris.eu/WebRoot/Store17/Shops/61562434/5F08/5A5C/B22D/CB55/4890/0A0C/6D11/3753/1410101000_ml.jpg"width="200" height="200"> 
+</div>
+<div class="main">
+	<article>
+<h2>03/03/2022 : cooking master cupcakes</h2>
+<p> Using the batter from my much loved Vanilla Cake, these Vanilla Cupcakes have a professional bakery-style crumb and stay perfectly moist for 4 whole days which is unheard of for cupcakes!
+
+No secret ingredients. Just a secret Japanese baking technique applied to classic butter cupcakes ingredients. It’s like…. magic! ✨</p>
+</article>
+<img src="https://www.recipetineats.com/wp-content/uploads/2020/09/Vanilla-Cupcakes-with-Vanilla-Swiss-Meringue-2.jpg?resize=650,910"width="200" height="200">
+</div>
+
+</div>
+<div style="text-align: center;">
+<footer>@web</footer>
+<footer>@cookes</footer>
+
+</div>
+
+</body>
+</html>
